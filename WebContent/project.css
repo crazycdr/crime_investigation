@@ -1,0 +1,298 @@
+.try
+{
+position: absolute;
+top: 0px;
+width: 100%;
+left: 0px;
+z-index: 1;
+}
+.try ul {
+
+   
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: red;
+}
+
+.try li {
+    float: left;
+}
+
+.try li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 19px 29px;
+    text-decoration: none;
+}
+
+
+.try li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+li.dropdown {
+   
+    display: inline-block;
+}
+.arrow{
+	padding:0px 0 0 9px;
+}
+
+#dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+#dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+#dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover #dropdown-content {
+    display: block;
+}
+
+
+
+
+
+.menubar ul
+{
+	
+	position:relative;
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    right:60px;
+	
+}
+.menubar li
+{
+	float: right;
+	clear:left;
+}
+
+.menubar li a
+{
+	position:relative;
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 5px 16px 20px 10px;
+    text-decoration: none;
+	border:grey;
+	
+	
+}
+
+.menubar li a:hover {
+    background-color:#242424 ;
+}
+.menubars ul {
+	position:relative;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+	width:100%;
+	border-radius:8px;
+	bottom:70px;
+}
+
+.menubars li {
+    float: left;
+}
+
+.menubars li a {
+
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menubars li a:hover {
+    background-color: #111;
+}
+
+
+/*sign up??*/
+.relative{
+	 position: absolute;
+    left: 300px;
+    top:550px;
+		
+}
+/*name and password field*/
+.signin{
+	position: relative;
+    right: 100px;
+    top:400px;
+}
+
+
+.signin2{
+	position: relative;
+    right: 100px;
+    top:500px;
+}
+
+/*sign up form*/
+.sign_up
+{
+	
+	position: relative;
+	left: 500px;
+    top:80px;
+}
+#myDIV {
+    resize:none;
+    overflow:auto;	
+}
+.input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('images.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+.search{
+	position: relative;
+	left: 1024px;
+    
+}
+/*register??*/
+.absolute{
+	position:absolute;
+
+    left:300px;
+    top:520px;
+}
+/* When the input field gets focus, change its width to 100% */
+/*input[type=text]:focus {
+    width: 100%;
+}*/
+.container {
+	position:relative;
+    width: 100%;
+	background-color:#800000;
+    border: 1px #8B0000;
+	margin:0px;
+	border-radius: 9px;
+}
+#linked
+{
+	background-color:black;
+}
+.linked
+{
+	background-color:black;
+}
+header {
+	position:relative;
+	color: white;
+    clear: left;
+    text-align: left;
+	left:20px;
+}
+nav {
+    float: right;
+    max-width: 160px;
+	border-left: 1px solid gray;
+    margin: 0;
+    padding: 7em;
+	background-color:black;
+}
+nav ul {
+    list-style-type: none;
+    padding: 10;
+}
+nav ul a {
+    text-decoration: none;
+}
+#head{
+	color:grey;
+}
+
+/*intro of site*/
+.crimepara
+{
+	text-align: left;
+	font-size:23px;
+	color:#A52A2A;
+	background-color:black;
+	padding:2em;
+}
+.contact
+{
+	position:relative;
+	top:550px;
+}
+.mySlides {display:none;}
+.slide
+{
+	position:relative;
+	left:420px;
+	bottom:60px;
+	
+}
+.footerbar
+{
+	position:absolute;
+	top:660px;
+	width:100%;
+	font-size:50px;
+	
+}
+
+
+
+.footerbar ul {
+	position:relative;
+    list-style-type: none;
+    margin: 0;
+    padding: 0px 0px 0px 50px;
+    overflow: hidden;
+    background-color: red;
+	width:100%;
+	border-radius:8px;
+	bottom:70px;
+}
+
+.footerbar li {
+    float: left;
+}
+
+.footerbar li a {
+
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 26px 10px 26px;;
+    text-decoration: none;
+}
+
+.footerbar li a:hover {
+    background-color: #111;
+}
